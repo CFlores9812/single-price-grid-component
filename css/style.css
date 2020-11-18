@@ -1,0 +1,162 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+font-family: 'Karla', sans-serif;
+background-color: #E6EFF6;
+ padding: 0;
+margin: 0;
+   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  weight: 100vw;
+}
+
+    
+ .header h1 {
+    color: hsl(179, 62%, 43%);
+   
+    font-weight: 700;
+    margin-bottom: 20px;
+ }
+
+
+ .header h3 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom:  20px;
+ }
+
+ .header p {
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 10px;
+    
+
+  
+ }
+
+ .header{
+background-color: #ffffff;
+padding: 40px;
+border-radius: 10px;
+ }
+
+
+
+ .subscription h3{
+    font-weight: 700;
+ 
+    margin-bottom: 15px ;
+ }
+
+ .dollar-sign{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+ }
+
+ .span-text{
+     color:  hsl(218, 22%, 67%);
+     margin-bottom: 15px;
+ }
+
+ .subscription p {
+     margin: 10px auto 20px auto;
+ }
+
+ .subscription{
+background-color:  hsl(179, 62%, 43%);
+padding: 40px;
+color: #ffffff;
+
+ }
+
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+ a .btn {
+    text-decoration: none;
+   
+}
+
+ .why-us{
+     background-color: hsl(179, 62%, 43%);
+     opacity:0.5;
+     color: #ffffff;
+     padding: 40px;
+  
+    text-decoration: none;
+ }
+
+ .why-us h3{
+
+     font-weight: 700;
+     margin-bottom: 15px;
+ }
+
+ .why-us p {
+     margin-bottom: 10px;
+ }
+
+
+ .row{
+   display: grid;
+   grid-template-columns: 50% 50%;
+ }
+
+ .container{
+   
+  max-width: 1440px;
+ }
+
+
+
+ footer{
+    margin: 20px auto; 
+ }
+
+
+ .attribution { 
+     font-size: 11px; text-align: center; 
+      color:hsl(179, 62%, 43%);
+    }
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+    }
+
+
+    .attribution a:hover{
+        text-decoration: none;
+        color: navy;
+        font-size: 14px;
+    }
+
+
+
+ @media (min-width: 375px ){
+    .container{
+        display: block;
+    }
+
+    .row{
+        flex: 1;
+
+    
+    }
+
+
+}
